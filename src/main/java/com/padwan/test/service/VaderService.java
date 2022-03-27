@@ -22,7 +22,7 @@ public class VaderService {
 
     public List<String> habilidades(){
         List<String> habilidades = new ArrayList<>();
-        habilidades.add("Java");
+        habilidades.add("\nJava");
         habilidades.add("Javafx");
         habilidades.add("Jdbc");
         habilidades.add("Mysql");
