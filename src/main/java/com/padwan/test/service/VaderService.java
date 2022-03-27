@@ -20,4 +20,15 @@ public class VaderService {
         return skills;
     }
 
+    public List<String> habilidades(){
+        List<String> habilidades = new ArrayList<>();
+        habilidades.add("Java");
+        habilidades.add("Javafx");
+        habilidades.add("Jdbc");
+        habilidades.add("Mysql");
+        habilidades.add("Postgresql");
+        habilidades.add("JPA");
+        habilidades.add("Android Studio");
+        return habilidades;
+    }
 }

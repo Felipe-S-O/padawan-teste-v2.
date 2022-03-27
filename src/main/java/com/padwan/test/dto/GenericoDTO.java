@@ -3,25 +3,10 @@ package com.padwan.test.dto;
 public class GenericoDTO {
 
     private String planet;
-    private Integer ranking;    
+    private Integer ranking;
     private String classe;
-    
-    
 
-
-	public GenericoDTO(String planet, Integer ranking, String classe) {
-		super();
-		this.planet = planet;
-		this.ranking = ranking;
-		this.classe = classe;
-	}
-
-	public GenericoDTO() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
-	public String getPlanet() {
+    public String getPlanet() {
         return planet;
     }
 
