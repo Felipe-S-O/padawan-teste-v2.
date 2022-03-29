@@ -52,4 +52,11 @@ public class JSONObject {
 
 	}
 
+	@Override
+	public String toString() {
+		return "JSONObject [getFala()=" + getFala() + ", getFala2()=" + getFala2() + "]";
+	}
+	
+	
+
 }

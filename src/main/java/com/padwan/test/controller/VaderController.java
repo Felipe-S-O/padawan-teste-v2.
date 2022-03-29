@@ -29,8 +29,8 @@ public class VaderController {
     public ResponseEntity<Object> skills() {
         try {
             JSONArray json = new JSONArray();
-            json.put("Felipe Silva \n", vaderService.habilidades());
-            return new ResponseEntity<Object>(json.getNome()+json.getHabilidades(), HttpStatus.OK);
+            json.put("Felipe Silva ", vaderService.habilidades());
+            return new ResponseEntity<Object>(json.toString(), HttpStatus.OK);
         } catch (Exception e) {
             return new ResponseEntity<Object>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }

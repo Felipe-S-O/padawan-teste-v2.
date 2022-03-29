@@ -19,7 +19,7 @@ public class HealthController {
         JSONObject json = new JSONObject();
         json.putt("kenobi", "Hello there!    ");
         json.put("grievous", "general Kenobi!");
-        return new ResponseEntity<>(json.getFala()+json.getFala2(), HttpStatus.OK);
+        return new ResponseEntity<>(json.toString(), HttpStatus.OK);
     }
 
 }
